@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "regency-novels",
-    "currentPage": "background.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -12,11 +12,11 @@
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
         "dangerColor": "#f28281",
-        "titleFont": "Droid Sans",
-        "subtitleFont": "Droid Sans",
-        "textFont": "Droid Sans",
+        "titleFont": "Ubuntu",
+        "subtitleFont": "Ubuntu",
+        "textFont": "Ubuntu",
         "isRoundedButtons": false,
-        "isAnimatedOnScroll": true,
+        "isAnimatedOnScroll": false,
         "isScrollToTopButton": true
       }
     },
@@ -144,7 +144,7 @@
             "bgImageRadio": true,
             "showArrow": false,
             "bgImage": "@PROJECT_PATH@/assets/images/cover-2000x1333.jpg",
-            "bgColor": "#a07e49",
+            "bgColor": "#669999",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"

@@ -1,12 +1,12 @@
 {
   "settings": {
     "name": "regency-novels",
-    "currentPage": "index.html",
+    "currentPage": "background.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#b68e0e",
+        "primaryColor": "#f7da64",
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.10.5",
-    "uniqCompNum": 178,
+    "uniqCompNum": 188,
     "versionPublish": "3.11.1",
     "favicon": "",
     "noImageResize": "",
@@ -70,13 +70,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#c4ae68"
+              "background": "#527a7a"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#cebc82!important"
+              "background": "#609090!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#d2c28d"
+              "background": "#669999"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -89,7 +89,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#b68e0e!important"
+              "color": "#f7da64!important"
             }
           },
           "_tags": [
@@ -98,7 +98,7 @@
           "_name": "menu",
           "_anchor": "menu-t",
           "_params": {
-            "bgColor": "#d2c28d",
+            "bgColor": "#669999",
             "fontSize": "0.85",
             "fontName": {},
             "fontColor": "#ffffff",
@@ -131,40 +131,20 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sarah Hawkswood</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"reviews.html\">Reviews</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
-          "_inherit": "msg-box5",
-          "_styles": {
-            ".mbr-section-title, .lead p": {
-              "color": "#fff"
-            },
-            "H3": {
-              "color": "#f3c649",
-              "text-align": "right",
-              "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
-            },
-            "P": {
-              "font-size": "17px"
-            },
-            "SPAN": {
-              "color": "#66452b"
-            }
-          },
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box7",
-          "_anchor": "msg-box7-j",
+          "_name": "header1",
+          "_anchor": "header1-50",
           "_params": {
-            "imageSize": "30",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "parallax": false,
+            "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/fieldonly-2000x610-1.jpg",
-            "bgColor": "#fff",
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/cover-2000x1333.jpg",
+            "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -173,118 +153,20 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "inverse": false,
-            "showTitle": true,
+            "contentAlign": "center",
+            "showTitle": false,
             "showText": true,
             "showButtons": false
           },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/knight-trans-2.gif",
-              "link": "index.html",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false,
-              "active": true
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "<span style=\"font-size: 3rem; line-height: 1.1;\">Sophia Holloway</span><br>",
-          "text": "traditional Regency period romances<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>"
-        },
-        {
-          "_inherit": "msg-box8",
+          "title": "FULL SCREEN INTRO",
+          "text": "<br><br><br><br><br><br><br><br><br><br><br><br>Sophia Holloway writes Regency romances in the classic tradition, as exemplified by Georgette Heyer. She creates a &nbsp;world of eligible, and sometimes very ineligible, gentlemen, and ladies who vary from those anticipating marriage, those who think the chance has passed them by, and even those who have experienced it once and are resolved to never marry again. Her stories are played out against a backdrop that varies from Almack's and Bond Street to affluent country houses, and with casts of characters from the sagacious to the silly. They prove that although the path of true love may not run smooth, the destination is worth the journey.&nbsp;<br><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
           "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#000"
-            },
-            ".lead P": {
-              "text-align": "left"
-            },
-            ".lead UL": {
-              "text-align": "left"
-            },
-            ".mbr-section-title": {
-              "font-size": "30px"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box3",
-          "_anchor": "msg-box3-l",
-          "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "3",
-            "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
-            "bgColor": "#d2c28d",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": false,
-            "showText": true,
-            "showButton": false
-          },
-          "title": "Sarah Hawkswood",
-          "text": "<p>Regency Romances blah blah blah</p><p>\n</p><p><br></p><p><br></p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
-        },
-        {
-          "_inherit": "header1",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#000"
-            },
             ".mbr-section-lead": {
-              "color": "#9c9a9a"
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
             }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header5",
-          "_anchor": "header5-44",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
-            "showArrow": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#d2c28d",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "contentAlign": "left",
-            "showTitle": false,
-            "showText": false,
-            "showButtons": false
-          },
-          "title": "SOLID COLOR INTRO",
-          "text": "Full screen intro with color background.<br>Buttons, text and title are aligned to the left.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
+          }
         }
       ]
     },
@@ -324,13 +206,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#c4ae68"
+              "background": "#527a7a"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#cebc82!important"
+              "background": "#609090!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#d2c28d"
+              "background": "#669999"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -343,7 +225,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#b68e0e!important"
+              "color": "#f7da64!important"
             }
           },
           "_tags": [
@@ -352,7 +234,7 @@
           "_name": "menu",
           "_anchor": "menu-t",
           "_params": {
-            "bgColor": "#d2c28d",
+            "bgColor": "#669999",
             "fontSize": "0.85",
             "fontName": {},
             "fontColor": "#ffffff",
@@ -381,7 +263,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sarah Hawkswood</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"reviews.html\">Reviews</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_styles": {
@@ -389,8 +271,8 @@
               "text-align": "center"
             },
             "H3": {
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
             }
           },
           "_tags": [
@@ -401,7 +283,7 @@
           "_params": {
             "paddingTop": "5",
             "paddingBottom": 1,
-            "bgColor": "#d2c28d",
+            "bgColor": "#669999",
             "showMeta": false
           },
           "title": "Background",
@@ -415,8 +297,8 @@
           "_styles": {
             "H3": {
               "font-size": "36px",
-              "font-family": "'Droid Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
               "text-align": "left"
             },
             "SPAN": {
@@ -424,8 +306,8 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
             },
             "P": {
-              "font-family": "'Droid Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
               "text-align": "left"
             }
           },
@@ -437,7 +319,7 @@
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#d2c28d",
+            "bgColor": "#669999",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -455,7 +337,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/011roy000005c08u00160v00-1400x1667.jpg",
+              "src": "@PROJECT_PATH@/assets/images/seated-lady-1400x1728.png",
               "link": "https://www.bl.uk/catalogues/illuminatedmanuscripts/ILLUMIN.ASP?Size=mid&IllID=39907",
               "alt": "Illuminated manuscript from the British Library",
               "title": "Illuminated manuscript from the British Library",
@@ -473,34 +355,39 @@
               "size": 0
             }
           },
-          "title": "General Information",
-          "text": "<p>The Regency Era<br><br></p>",
+          "title": "Sophia answers questions about the novels",
+          "text": "<span style=\"font-family: Ubuntu, sans-serif; font-size: 1.07rem; line-height: 1.5;\"><b>Why do you choose to write books set in the Regency period?</b></span><br><br>There is a certain decadence, a confidence, within the upper echelon of society, a bit like the decade prior to the outbreak of World War I. Britain is at war, and it is getting to grips with an urban and industrialised working class, and yet for the most part Society, with a capital S, does not take much notice. Unless one has relatives in the Army or the Royal Navy, the war against Napoleon which takes up the first few years of the Regency is merely a background. Of course for many of the younger characters, it has been in the background their entire lives. There is an unashamed joie de vivre that was later repressed by Victorian morality, which was in its turn a reaction to the licentiousness of the Regency. At the same time, there are rigid rules and conventions that are broken at the individual's peril.&nbsp;<br><br>It is also a period with which I am familiar, not least from my military history background. The Peninsular War was my first interest, and I grew up on Georgette Heyer. I loved her attention to detail, the repartee, the humour. There is nothing wrong with ‘escapism’ in reading for pleasure, and in whichever genre I write I seek to create a world into which the reader can escape for a few happy hours.<br><br><br><br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">EXTRACT</a>"
         },
         {
-          "_inherit": "msg-box5",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box4",
+          "_name": "msg-box5",
           "_styles": {
             "H3": {
-              "text-align": "left",
-              "font-size": "36px"
+              "font-size": "36px",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            },
+            "SPAN": {
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
             },
             "P": {
-              "text-align": "left"
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
             }
           },
-          "_anchor": "msg-box4-23",
+          "_anchor": "msg-box5-53",
           "_params": {
-            "imageSize": "34",
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "imageSize": "32",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#d2c28d",
+            "bgColor": "#669999",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -509,20 +396,20 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": false,
+            "inverse": true,
             "showTitle": true,
             "showText": true,
             "showButtons": false
           },
           "media": {
             "image": {
+              "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/011hrl000003667u00004v00-1400x2025.jpg",
-              "link": "https://www.bl.uk/catalogues/illuminatedmanuscripts/ILLUMIN.ASP?Size=mid&IllID=16642",
-              "alt": "Illuminated manuscript from the British Library",
-              "title": "Illuminated manuscript from the British Library",
-              "linkInNewWindow": false,
-              "active": true
+              "src": "@PROJECT_PATH@/assets/images/c-gentleman-1400x2495.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
@@ -531,14 +418,14 @@
               "loop": false
             },
             "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
               "link": "",
-              "size": 250
+              "size": 0
             }
           },
-          "title": "Historical Background",
-          "text": "Some Links",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+          "title": "",
+          "text": "<b>Is the classic Regency not rather outdated in the 21st century, and why do your books not have bedroom scenes?</b><br><br>Just because my books follow the ‘classic’ route rather than those of ‘modern Regency romance’ does not mean they are in some mid twentieth century time warp. I adhere to Heyer’s principles, but I am not trying to copy her. After all, one could not out-Heyer Heyer. My style is not the same, and I spend a far greater time seeing the situations from the male perspective. It is rare in a Heyer romance to have any insight into the gentlemen’s thoughts, but since I have been writing in another genre for over a decade, and one where the main characters are male, I feel perfectly at home working from within the male mindset. This in its turn means that where Heyer acknowledged a mere ‘batsqueak’ of sexuality, there is an acceptance of physical desire as part and parcel of their characters. Whilst well-bred young ladies were innocent to the point of ignorance (knowledge of where babies come from is not the same as how they get there), it was accepted that young gentlemen would enjoy liaisons. It is therefore perfectly natural for the male characters to allude to physical desire. I prefer allusion, since, if you need diagrams, you ought to be reading a biology text book not a novel.<br><br>I certainly have scenes set in bedrooms, but not ‘bedroom scenes’. This is not prudery but for two very specific reasons.<span style=\"font-size: 1.07rem; line-height: 1.5;\">The first is historicity; in a world where the unmarried woman was considered a ‘failure’, and generally condemned to living as a hanger-on in her family, without the freedom of running her own household, any breath of ‘scandal’ would be social suicide. If I was writing about the courtesans of the demi-monde, or even bored married ladies, it would be different, because sex happened as it always has, but the penalties for stepping over the  socially acceptable line were too high for single ladies.</span><br><br>Ironically, the first book  to be published, The Devil You Know, is the only story so far set within a marriage, but in fact it is a ‘back to front’ romance, which commences with the wedding of a couple who do not know each other, alludes to an understandably disastrous wedding night, and then works through a courtship to the point where that disaster can be expunged.<br><br>The second reason is that I see the relationship between a novel and the reader as one where the reader is not passive, but involved, and is encouraged to use their imagination. How the reader imagines exactly ’what happens next’, or indeed ‘what has happened’, is up to them. I merely give enough hints on which to build their own picture. The reader therefore imagines events as they would like them to be, dependent upon mood or mindset. Setting a bedroom scene in words can easily feel either voyeuristic or ridiculous, and pitching it just right is exceedingly difficult. Inside their own head the reader is always ‘just right’.<br><br>I am also not too detailed about the exact look of characters, so that imagination can fill in as wished. I know just how they look, to my personal satisfaction, but I would hope that fifty readers would have fifty slightly different images in mind. How often is one disappointed when a favourite book is given cinematic treatment but the main characters are ‘not MY idea of . . . ‘?&nbsp;<br><b><br></b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"Extract-servant.html\" data-toolbar=\"-mbrBtnMove\">EXTRACT</a>"
         }
       ]
     },
@@ -578,13 +465,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#c4ae68"
+              "background": "#527a7a"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#cebc82!important"
+              "background": "#609090!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#d2c28d"
+              "background": "#669999"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -597,7 +484,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#b68e0e!important"
+              "color": "#f7da64!important"
             }
           },
           "_tags": [
@@ -606,7 +493,7 @@
           "_name": "menu",
           "_anchor": "menu-t",
           "_params": {
-            "bgColor": "#d2c28d",
+            "bgColor": "#669999",
             "fontSize": "0.85",
             "fontName": {},
             "fontColor": "#ffffff",
@@ -635,7 +522,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sarah Hawkswood</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"reviews.html\">Reviews</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_styles": {
@@ -655,7 +542,7 @@
           "_params": {
             "paddingTop": "5",
             "paddingBottom": 1,
-            "bgColor": "#d2c28d",
+            "bgColor": "#669999",
             "showMeta": false
           },
           "title": "Author",
@@ -674,7 +561,7 @@
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#d2c28d",
+            "bgColor": "#669999",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -710,39 +597,74 @@
               "size": 0
             }
           },
-          "title": "Sarah Hawkswood",
-          "text": "Sarah Hawkswood describes herself as a ‘wordsmith’ who is only really happy when writing. She read Modern History at Oxford and her factual book on the Royal Marines in the First World War, From <a href=\"https://www.amazon.co.uk/From-Trench-Turret-S-Holloway/dp/1845293215\" target=\"_blank\">Trench and Turret</a>, was published in 2006. The Bradecote and Catchpoll series are her first novels. <br><br>She takes her pen name from one of her eighteenth century ancestors who lived in Worcestershire, and selected it because the initials match those of her maiden name. She is married, with two grown up children, and now lives in Worcestershire. <br><br>She is a member of the Crime Writers’ Association, the Historical Writers’ Association, and the Historical Novel Society.<br><br>You can contact her at sarahhawkswood@gmail.com&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+          "title": "<br>Sophia Holloway",
+          "text": "Sophia Holloway describes herself as a ‘wordsmith’ who is only really happy when writing. She read Modern History at Oxford and her factual book on the Royal Marines in the First World War, <a href=\"https://www.amazon.co.uk/From-Trench-Turret-S-Holloway/dp/1845293215\" target=\"_blank\">From Trench and Turret</a>, was published in 2006. She also writes mediaeval murder mysteries under another pen name.<br>&nbsp;&nbsp;<br>She is a member of the Historical Writers’ Association, the Historical Novel Society, and the Crime Writers' Association.<br><br><br>You can contact Sophia via regencysophia@gmail.com<br><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_styles": {
+            "P": {
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            }
+          }
         },
         {
-          "_inherit": "social-buttons2",
-          "_styles": {
-            ".mbr-section-title, .btn-social": {
-              "color": "#fff"
-            },
-            ".mbr-section-title": {
-              "font-size": "20px"
-            }
-          },
           "_tags": [
             "Theme"
           ],
-          "_name": "social-buttons4",
-          "_anchor": "social-buttons4-1b",
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-57",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
+            "imageSize": "32",
+            "paddingTop": 0,
+            "paddingBottom": 0,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#d2c28d",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#669999",
             "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
             "overlay": false,
             "overlayOpacity": 0.5,
-            "overlayColor": "#222"
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false
           },
-          "text": "FOLLOW ME",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/bradecote\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a>          "
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/sophiaholloway-1400x1909.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "SOLID COLOR INTRO WITH IMAGE",
+          "text": "Sophia takes her pen name from her paternal great-grandmother, who died in childbirthwith her fourth child in 1904.  She was only 34 years old. In a very small way this gives her a memorial.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_styles": {
+            "P": {
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            }
+          }
         },
         {
           "_inherit": "header1",
@@ -764,7 +686,7 @@
             "bgImageRadio": false,
             "showArrow": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#d2c28d",
+            "bgColor": "#669999",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -820,13 +742,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#c4ae68"
+              "background": "#527a7a"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#cebc82!important"
+              "background": "#609090!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#d2c28d"
+              "background": "#669999"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -839,7 +761,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#b68e0e!important"
+              "color": "#f7da64!important"
             }
           },
           "_tags": [
@@ -848,7 +770,7 @@
           "_name": "menu",
           "_anchor": "menu-s",
           "_params": {
-            "bgColor": "#d2c28d",
+            "bgColor": "#669999",
             "fontSize": "0.85",
             "fontName": {},
             "fontColor": "#ffffff",
@@ -877,7 +799,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sarah Hawkswood</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"reviews.html\">Reviews</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_styles": {
@@ -885,8 +807,8 @@
               "text-align": "center"
             },
             "H3": {
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
             }
           },
           "_tags": [
@@ -897,10 +819,10 @@
           "_params": {
             "paddingTop": "5",
             "paddingBottom": 1,
-            "bgColor": "#d2c28d",
+            "bgColor": "#669999",
             "showMeta": false
           },
-          "title": "Books",
+          "title": "The Novels",
           "meta": "By John Smith posted July 20, 2016"
         },
         {
@@ -911,16 +833,16 @@
           "_styles": {
             "H3": {
               "font-size": "36px",
-              "font-family": "'Droid Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
             },
             "SPAN": {
-              "font-family": "'Droid Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
             },
             "P": {
-              "font-family": "'Droid Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
             }
           },
           "_anchor": "msg-box5-o",
@@ -931,7 +853,7 @@
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#d2c28d",
+            "bgColor": "#669999",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -943,7 +865,7 @@
             "inverse": true,
             "showTitle": true,
             "showText": true,
-            "showButtons": true
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -967,14 +889,18 @@
               "size": 0
             }
           },
-          "title": "Devil You Know",
-          "text": "<b>Blurb </b>blurb",
+          "title": "The Devil You Know",
+          "text": "When George, the Earl of Ledbury, serial philanderer, marries Kitty Elford for the dowry her step-brother will pay to ger her off his hands, it soon seems to the earl that it is more a marriage of 'inconvenience' than convenience. &nbsp;For her part, Kitty dreads the disappointment and pain that losing her heart to her dashing but inconstant husband must bring.<br><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span><span style=\"font-size: 1.07rem; line-height: 1.5;\">Yet George finds a spark in his wife that makes him want to make theirs more than a marriage in name, and the seducer sets out to seduce his own wife. &nbsp;He strives to win her heart, so that they can have a fresh start after a wedding night that was best forgotten. Fate, however, seems determined to keep him from the marital bed, and his increasing frustration, and a spurned mistress set on revenge, threaten to ruin all.&nbsp;</span><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"Extract-servant.html\" data-toolbar=\"-mbrBtnMove\">EXTRACT</a>"
         },
         {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
+            },
+            "H3": {
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
             }
           },
           "_tags": [
@@ -985,7 +911,7 @@
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#d2c28d",
+            "bgColor": "#669999",
             "showMeta": false
           },
           "title": "Future Titles",
@@ -999,7 +925,9 @@
           "_styles": {
             "UL": {
               "text-align": "left",
-              "font-size": "22px"
+              "font-size": "22px",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
             },
             "P": {
               "text-align": "center"
@@ -1009,9 +937,9 @@
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#d2c28d"
+            "bgColor": "#669999"
           },
-          "text": "<ul><li>Kingscastle</li><li>Isobelle</li></ul>"
+          "text": "<ul><li>Bless Thine Inheritance</li><li>Kingscastle</li><li>Isabelle</li><li>Lady of the Lake</li><li>An Independent Woman</li><li>All in a Name</li><li>Embarrassment of Riches</li><li>Twice Shy</li></ul>"
         },
         {
           "_inherit": "header1",
@@ -1033,7 +961,7 @@
             "bgImageRadio": false,
             "showArrow": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#d2c28d",
+            "bgColor": "#669999",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1089,13 +1017,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#c4ae68"
+              "background": "#527a7a"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#cebc82!important"
+              "background": "#609090!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#d2c28d"
+              "background": "#669999"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -1108,7 +1036,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#b68e0e!important"
+              "color": "#f7da64!important"
             }
           },
           "_tags": [
@@ -1117,7 +1045,7 @@
           "_name": "menu",
           "_anchor": "menu-4k",
           "_params": {
-            "bgColor": "#d2c28d",
+            "bgColor": "#669999",
             "fontSize": "0.85",
             "fontName": {},
             "fontColor": "#ffffff",
@@ -1146,7 +1074,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sarah Hawkswood</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"reviews.html\">Reviews</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_styles": {
@@ -1166,7 +1094,7 @@
           "_params": {
             "paddingTop": "5",
             "paddingBottom": 1,
-            "bgColor": "#d2c28d",
+            "bgColor": "#669999",
             "showMeta": false
           },
           "title": "Reviews<br><br>",
@@ -1200,7 +1128,7 @@
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#d2c28d",
+            "bgColor": "#669999",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1218,7 +1146,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/servant-of-death-cover-1400x2210.jpg",
+              "src": "@PROJECT_PATH@/assets/images/seated-lady-1400x1728.png",
               "link": "",
               "alt": "",
               "title": "",
@@ -1260,211 +1188,7 @@
             "bgImageRadio": false,
             "showArrow": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#d2c28d",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "contentAlign": "left",
-            "showTitle": false,
-            "showText": false,
-            "showButtons": false
-          },
-          "title": "SOLID COLOR INTRO",
-          "text": "Full screen intro with color background.<br>Buttons, text and title are aligned to the left.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
-        }
-      ]
-    },
-    "background-material.html": {
-      "settings": {
-        "title": "Background to Novels",
-        "meta_descr": ""
-      },
-      "components": [
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H3": {
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-2s",
-          "_params": {
-            "paddingTop": "5",
-            "paddingBottom": 1,
-            "bgColor": "#d2c28d",
-            "showMeta": false
-          },
-          "title": "Some Background Material",
-          "meta": "By John Smith posted July 20, 2016"
-        },
-        {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff",
-              "font-family": "'Droid Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
-              "font-size": "20px"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.85rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.921rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#c4ae68"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#cebc82!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#d2c28d"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#b68e0e!important"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_anchor": "menu-2c",
-          "_params": {
-            "bgColor": "#d2c28d",
-            "fontSize": "0.85",
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/sh-logo-595x128.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "http://bradecoteandcatchpoll.com",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "linkInNewWindow": false,
-              "name": "alert",
-              "family": "MobiriseIcons",
-              "link": "http://bradecoteandcatchpoll.com",
-              "size": 0,
-              "newWindow": false
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sarah Hawkswood</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"reviews.html\">Reviews</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-2t",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#d2c28d"
-          },
-          "text": "<p>Regency background stuff yah yah yah</p>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "image2",
-          "_anchor": "image2-2z",
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "1",
-            "bgColor": "#d2c28d",
-            "showText": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/shapeimage-2-1400x490.png",
-              "width": 1400,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
-            }
-          },
-          "text": "Create awesome mobile-friendly websites. No coding and free."
-        },
-        {
-          "_inherit": "header1",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#000"
-            },
-            ".mbr-section-lead": {
-              "color": "#9c9a9a"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header5",
-          "_anchor": "header5-3w",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
-            "showArrow": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#d2c28d",
+            "bgColor": "#669999",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"

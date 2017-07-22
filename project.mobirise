@@ -23,7 +23,7 @@
     "versionFirst": "3.10.5",
     "uniqCompNum": 211,
     "versionPublish": "3.11.1",
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/favicon-32x32-128x128.png",
     "noImageResize": "",
     "cookiesAlert": "",
     "google-analytics": "",

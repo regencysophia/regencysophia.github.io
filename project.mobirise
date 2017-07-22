@@ -33,8 +33,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Bradecote and Catchpoll",
-        "meta_descr": "",
+        "title": "Classic Regency romances",
+        "meta_descr": "Classic Regency romance novels in the Heyer tradition.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -138,6 +138,12 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-lead": {
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            }
+          },
           "_anchor": "header1-50",
           "_params": {
             "parallax": true,
@@ -160,13 +166,7 @@
           },
           "title": "FULL SCREEN INTRO",
           "text": "<br><br><br><br><br><br><br><br><br><br><br><br>Sophia Holloway writes Regency romances in the classic tradition, as exemplified by Georgette Heyer. She creates a &nbsp;world of eligible, and sometimes very ineligible, gentlemen, and ladies who vary from those anticipating marriage, those who think the chance has passed them by, and even those who have experienced it once and are resolved to never marry again. <br><br>Her stories are played out against a backdrop that varies from Almack's and Bond Street to affluent country houses, and with casts of characters from the sagacious to the silly. They prove that although the path of true love may not run smooth, the destination is worth the journey.&nbsp;<br><br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_styles": {
-            ".mbr-section-lead": {
-              "font-family": "'Ubuntu', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         }
       ]
     },
@@ -553,6 +553,12 @@
             "Theme"
           ],
           "_name": "msg-box5",
+          "_styles": {
+            "P": {
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            }
+          },
           "_anchor": "msg-box5-1v",
           "_params": {
             "imageSize": "34",
@@ -599,19 +605,19 @@
           },
           "title": "<br>Sophia Holloway",
           "text": "Sophia Holloway describes herself as a ‘wordsmith’ who is only really happy when writing. She read Modern History at Oxford and her factual book on the Royal Marines in the First World War, <a href=\"https://www.amazon.co.uk/From-Trench-Turret-S-Holloway/dp/1845293215\" target=\"_blank\">From Trench and Turret</a>, was published in 2006. She also writes mediaeval murder mysteries under another pen name.<br>&nbsp;&nbsp;<br>She is a member of the Historical Writers’ Association, the Historical Novel Society, and the Crime Writers' Association.<br><br><br>You can contact Sophia via regencysophia@gmail.com<br><br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_styles": {
-            "P": {
-              "font-family": "'Ubuntu', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box5",
+          "_styles": {
+            "P": {
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            }
+          },
           "_anchor": "msg-box5-57",
           "_params": {
             "imageSize": "32",
@@ -658,13 +664,7 @@
           },
           "title": "SOLID COLOR INTRO WITH IMAGE",
           "text": "Sophia takes her pen name from her paternal great-grandmother, who died in childbirthwith her fourth child in 1904.  She was only 34 years old. In a very small way this gives her a memorial.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_styles": {
-            "P": {
-              "font-family": "'Ubuntu', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "_inherit": "header1",

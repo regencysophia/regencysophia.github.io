@@ -5,7 +5,6 @@
 
 
 
-
 body,
 input,
 textarea,
@@ -476,8 +475,18 @@ h6,
 #menu-t .dropdown-item[aria-expanded="true"] {
   color: #f7da64!important;
 }
-#header1-50 .mbr-section-lead {
-  font-family: 'Ubuntu', sans-serif;
+#features3-5k P {
+  color: #ffffff;
+}
+#content1-5l P {
+  text-align: center;
+  color: #ffffff;
+}
+#header5-5m .mbr-section-title {
+  color: #000;
+}
+#header5-5m .mbr-section-lead {
+  color: #9c9a9a;
 }
 
 
@@ -862,82 +871,5 @@ h6,
   color: #000;
 }
 #header5-4r .mbr-section-lead {
-  color: #9c9a9a;
-}
-
-#menu-58 .hide-buttons .nav-btn {
-  display: none !important;
-}
-#menu-58 .navbar-caption {
-  color: #ffffff;
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 20px;
-}
-#menu-58 .navbar-toggler {
-  color: #ffffff;
-}
-#menu-58 .close-icon::before,
-#menu-58 .close-icon::after {
-  background-color: #ffffff;
-}
-#menu-58 .link,
-#menu-58 .dropdown-item {
-  color: #ffffff;
-}
-#menu-58 .link {
-  font-size: 0.85rem;
-}
-#menu-58 .dropdown-item,
-#menu-58 .nav-dropdown-sm .link {
-  font-size: 0.921rem;
-}
-#menu-58 .link:hover,
-#menu-58 .dropdown-item:hover,
-#menu-58 .link:focus,
-#menu-58 .dropdown-item:focus {
-  color: #f7da64;
-}
-#menu-58 .link[aria-expanded="true"],
-#menu-58 .dropdown-menu {
-  background: #527a7a;
-}
-#menu-58 .nav-dropdown-sm .link:focus,
-#menu-58 .nav-dropdown-sm .link:hover,
-#menu-58 .nav-dropdown-sm .dropdown-item:focus,
-#menu-58 .nav-dropdown-sm .dropdown-item:hover {
-  background: #609090!important;
-}
-#menu-58 .navbar,
-#menu-58 .nav-dropdown-sm,
-#menu-58 .nav-dropdown-sm .link[aria-expanded="true"],
-#menu-58 .nav-dropdown-sm .dropdown-menu {
-  background: #669999;
-}
-#menu-58 .bg-color.transparent .link {
-  color: #ffffff;
-  transition: none;
-}
-#menu-58 .bg-color.transparent.opened .link {
-  transition: color 0.2s ease-in-out;
-}
-#menu-58 .bg-color.transparent.opened .link:hover,
-#menu-58 .bg-color.transparent.opened .link:focus {
-  color: #f7da64;
-}
-#menu-58 .link[aria-expanded="true"],
-#menu-58 .dropdown-item[aria-expanded="true"] {
-  color: #f7da64!important;
-}
-#features3-5h P {
-  color: #ffffff;
-}
-#content1-5i P {
-  text-align: center;
-  color: #ffffff;
-}
-#header5-5j .mbr-section-title {
-  color: #000;
-}
-#header5-5j .mbr-section-lead {
   color: #9c9a9a;
 }

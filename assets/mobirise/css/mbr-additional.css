@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 
 
@@ -588,6 +587,12 @@ h6,
 #msg-box5-53 P {
   font-family: 'Ubuntu', sans-serif;
 }
+#header5-5n .mbr-section-title {
+  color: #000;
+}
+#header5-5n .mbr-section-lead {
+  color: #9c9a9a;
+}
 
 
 
@@ -660,10 +665,13 @@ h6,
   text-align: center;
 }
 #header3-14 H3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 #msg-box5-1v P {
   font-family: 'Ubuntu', sans-serif;
+}
+#msg-box5-1v H3 {
+  font-size: 36px;
 }
 #msg-box5-57 P {
   font-family: 'Ubuntu', sans-serif;
@@ -855,17 +863,17 @@ h6,
   text-align: center;
 }
 #header3-4l H3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 #msg-box5-4m H3 {
   font-size: 36px;
-  font-family: 'Droid Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 #msg-box5-4m SPAN {
   font-family: 'Droid Sans', sans-serif;
 }
 #msg-box5-4m P {
-  font-family: 'Droid Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 #header5-4r .mbr-section-title {
   color: #000;

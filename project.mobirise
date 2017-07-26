@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "regency-novels",
-    "currentPage": "reviews.html",
+    "currentPage": "Books.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -1392,7 +1392,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/servant-of-death-cover-1400x2210.jpg",
+              "src": "@PROJECT_PATH@/assets/images/the-devil-you-know-1400x2098.jpg",
               "link": "",
               "alt": "",
               "title": "",

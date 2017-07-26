@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "regency-novels",
-    "currentPage": "Books.html",
+    "currentPage": "extract-dyk.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -15,13 +15,13 @@
         "titleFont": "Ubuntu",
         "subtitleFont": "Ubuntu",
         "textFont": "Ubuntu",
-        "isRoundedButtons": false,
+        "isRoundedButtons": true,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": true
       }
     },
     "versionFirst": "3.10.5",
-    "uniqCompNum": 211,
+    "uniqCompNum": 218,
     "versionPublish": "3.11.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32x32-128x128.png",
     "noImageResize": "",
@@ -53,13 +53,15 @@
               "font-size": "20px"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#000000"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+              "font-family": "'Ubuntu', sans-serif"
             },
             ".link": {
               "font-size": "0.85rem"
@@ -80,7 +82,7 @@
               "background": "#669999"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#000000",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -101,11 +103,15 @@
           "_params": {
             "bgColor": "#669999",
             "fontSize": "0.85",
-            "fontName": {},
-            "fontColor": "#ffffff",
+            "fontName": {
+              "name": "Ubuntu",
+              "url": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+              "css": "'Ubuntu', sans-serif"
+            },
+            "fontColor": "#000000",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
-            "sticky": true,
+            "sticky": false,
             "logo": false,
             "showBrand": false,
             "collapsed": true,
@@ -1245,13 +1251,15 @@
               "font-size": "20px"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#000000"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+              "font-family": "'Ubuntu', sans-serif"
             },
             ".link": {
               "font-size": "0.85rem"
@@ -1272,7 +1280,7 @@
               "background": "#669999"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#000000",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -1282,7 +1290,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#f7da64!important"
+              "color": "#fac51c!important"
             }
           },
           "_tags": [
@@ -1293,11 +1301,15 @@
           "_params": {
             "bgColor": "#669999",
             "fontSize": "0.85",
-            "fontName": {},
-            "fontColor": "#ffffff",
+            "fontName": {
+              "name": "Ubuntu",
+              "url": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+              "css": "'Ubuntu', sans-serif"
+            },
+            "fontColor": "#000000",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
-            "sticky": true,
+            "sticky": false,
             "logo": false,
             "showBrand": false,
             "collapsed": true,
@@ -1386,7 +1398,7 @@
             "inverse": true,
             "showTitle": true,
             "showText": true,
-            "showButtons": false
+            "showButtons": true
           },
           "media": {
             "image": {
@@ -1412,7 +1424,7 @@
           },
           "title": "The Devil You Know",
           "text": "When George, the Earl of Ledbury, serial philanderer, marries Kitty Elford for the dowry her step-brother will pay to ger her off his hands, it soon seems to the earl that it is more a marriage of 'inconvenience' than convenience. &nbsp;For her part, Kitty dreads the disappointment and pain that losing her heart to her dashing but inconstant husband must bring.<br><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span><span style=\"font-size: 1.07rem; line-height: 1.5;\">Yet George finds a spark in his wife that makes him want to make theirs more than a marriage in name, and the seducer sets out to seduce his own wife. &nbsp;He strives to win her heart, so that they can have a fresh start after a wedding night that was best forgotten. Fate, however, seems determined to keep him from the marital bed, and his increasing frustration, and a spurned mistress set on revenge, threaten to ruin all.&nbsp;</span><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"Extract-servant.html\" data-toolbar=\"-mbrBtnMove\">EXTRACT</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"extract-dyk.html\" data-toolbar=\"-mbrBtnMove\">EXTRACT</a>"
         },
         {
           "_styles": {
@@ -1952,6 +1964,249 @@
           "title": "SOLID COLOR INTRO",
           "text": "Full screen intro with color background.<br>Buttons, text and title are aligned to the left.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
+        }
+      ]
+    },
+    "extract-dyk.html": {
+      "settings": {
+        "title": "Extract from The Devil You Know",
+        "meta_descr": "An extract from the romantic novel The Devil You Know by Sophia Holloway"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "font-size": "20px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.85rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.921rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#527a7a"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#609090!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#669999"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f7da64!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-5y",
+          "_params": {
+            "bgColor": "#669999",
+            "fontSize": "0.85",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/sh-logo-595x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "http://bradecoteandcatchpoll.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sarah Hawkswood</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-5z",
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": 1,
+            "bgColor": "#669999",
+            "showMeta": true
+          },
+          "title": "Extract from The Devil You Know",
+          "meta": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-60",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 1,
+            "bgColor": "#669999"
+          },
+          "text": "<p>'I rather think virtue is overrated.'&nbsp;</p><p>'Only, my lord, because you have rarely walked beside it.' Her words were sharp but her look was soft, and she smiled, quite tenderly.</p><p>'You confuse me.' He frowned.</p><p>'I do?'</p><p>'Yes. You know so little and yet you know so much.'</p><p>'I think that, sir, is a description of a woman.'</p><p>'Is it? Most of the women I have known have known so little and simply said so much.' He was patently sincere, and Kitty laughed so much she nearly choked on a piece of chicken. 'What shall we do this evening, madam wife?'</p><p>'This evening, my lord? I had assumed you would be going out.'</p><p>'I need not. It would be rather nice to have an evening at home, don’t you think?'</p><p>'We could make a list of those people to invite to our party,' she offered, her cheeks a little pink.</p><p>'We could.' He did not sound as if the idea inspired him.</p><p>'And I must tell you that I have discovered a friend of my own to invite, sir. Having said that none were likely to be in Town, Lady Rowington is here to bring out her sister. I had not thought she would be in London this Season, having had a baby shortly after Christmas, but there is nobody else to chaperone her poor sister.'</p><p>'Poor sister?'</p><p>'Lady Rowington was previously Miss Sudbury.'</p><p>'Ah. I see. Unfortunate for the sister.'</p><p>'Yes. Charlotte says her sister is still very low. Fortunately she herself has Rowington, and three small children.'</p><p>'So the Rowingtons and her ladyship’s depressed sister head your list of guests.'</p><p>'I would not phrase it that way, but yes.' She paused. 'I do not think making our list will take all evening, my lord. You could go out afterwards.'</p><p>'Are you trying to get rid of me, my dear?' He smiled, wryly. 'What a bad husband I must be, to be sure.'</p><p>'No, no, it is just . . .I do not want you to be bored, my lord.'</p><p>'Oh, I am sure we could think of something that would not be at all boring.' His eyes twinkled wickedly.</p><p>'My lord, we were talking of patience.'</p><p>'You were. I said it was overrated.'</p><p>'That was virtue in general.'</p><p>'And you are being pedantic, but I shall let that pass. What if we went out to the opera, and consigned lists to tomorrow morning, after our ride.'</p><p>'Our ride? You intend to ride with me again tomorrow?'</p><p>'Of course. You ride very well, and I enjoy the exercise. In a subtle way, since it is not riding to be fashionable, it will be remarked upon that I am a good and attentive husband. I assure you in some quarters that will be a revelation.'</p><p>'So you do it so that I will not be pitied?'</p><p>&nbsp;'Perspicacious of you, but incorrect. It is but a bonus. I will ride with you, my Kitty, because it gives me pleasure.'</p><p>'As it also gives me, my lord.'</p><p>'Then there is no need to question the arrangement. Every morning, at half past nine of the clock, we shall ride together. And tomorrow morning, after our ride, we will make that list.'</p><p>'I am sorry to dash your hopes, sir, but I feel that the opera will have commenced before we finish dinner, and I am not dressed for it.'</p><p>He glanced at the ormolu clock upon the mantelpiece and stared as if doing so would make it change the hour.</p><p>'Hmm.'</p><p>'You could send round to Lord Inglesham, if he is not engaged elsewhere, and we could . . . play spillikins.'</p><p>He regarded her in fascinated horror.</p><p>'Spillikins? My dear girl, what have you been doing with your life?'</p><p>'Nothing, my lord.'</p><p>'Patently. I dare not imagine Inglesham’s face if I invited him here to play parlour games.'</p><p>'Well, I think he would smile, and then come.'</p><p>'Glutton for punishment he must be, then.' His lordship dismissed the servants with a nod, and thanks. 'You need not withdraw, my dear, not tonight.'</p><p>'I . . '</p><p>'You are afraid I want to play other “games”. I do, but that is beside the point. You have your time to steel your nerves, but it does not mean we might not spend a pleasant evening in dalliance.'</p><p>'I never learned to dally, sir.'</p><p>'I would teach you. It would be interesting, dallying with someone as sharp-witted, sharp-tongued, and . . .'</p><p>'Awful?' She looked taken aback at his description of her.</p><p>'I was going to say “interesting”. You would throw inappropriate flattery back in my face. If I said you were like a flower unfurling, you would demand to know which species of flower. If I said your eyes sparkled like stars you would enquire from which constellation.' He grinned, suddenly. 'The more I contemplate it, the more appealing it becomes. I would certainly have to keep my wits about me, and if you wish to treat it as merely a game, as a sop to your nerves, do so.'</p><p>'So you wish for entertainment, my lord.'</p><p>'Yes, I do. I keep telling you I am selfish. The “entertainment” with members of the opposite sex has never been so cerebral, but I am willing to experiment. Besides, even married ladies are expected to flirt, decorously. It is a social skill. Think of it as educational.'</p><p>She eyed him speculatively.</p><p>'You, my lord, are a dangerous man.'</p><p>'So I have been led to believe, ma’am. Are you a coward?'</p><p>He was jousting with her already. She felt a heady thrill. If this was wooing, she rather liked it after all. She looked him straight in the eye.</p><p>'I think perhaps I am not.'&nbsp;</p><p>He downed the last of the port in his glass, and rose from the table, coming to take her hand.</p><p>'Then come and dally with me, my lady, and we shall be vastly entertaining, one to the other.'</p><p>'Ah yes, but only after that list, sir.'&nbsp;</p><p>He groaned.</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-61",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#669999",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "3",
+            "showImages": true,
+            "showTitles": false,
+            "showSubtitles": false,
+            "ShowTexts": false,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/blank-600x373-1.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Bootstrap 4",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/decorative-scroll-600x373-1.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/blank-600x373-1.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         }
       ]
     }

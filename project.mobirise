@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "regency-novels",
-    "currentPage": "extract-dyk.html",
+    "currentPage": "Books.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -1290,7 +1290,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#fac51c!important"
+              "color": "#f7da64!important"
             }
           },
           "_tags": [
@@ -1405,10 +1405,10 @@
               "active": true,
               "width": 1400,
               "src": "@PROJECT_PATH@/assets/images/the-devil-you-know-1400x2098.jpg",
-              "link": "",
+              "link": "https://www.amazon.co.uk/dp/B0749N8G2D",
               "alt": "",
               "title": "",
-              "linkInNewWindow": false
+              "linkInNewWindow": true
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U",

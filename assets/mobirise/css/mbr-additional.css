@@ -698,6 +698,9 @@ h6,
 
 
 
+
+
+
 #menu-s .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -778,6 +781,17 @@ h6,
 }
 #msg-box5-o P {
   font-family: 'Ubuntu', sans-serif;
+}
+#msg-box5-62 H3 {
+  font-size: 36px;
+  font-family: 'Ubuntu', sans-serif;
+}
+#msg-box5-62 SPAN {
+  font-family: 'Ubuntu', sans-serif;
+}
+#msg-box5-62 P {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: left;
 }
 #header3-10 .mbr-section-title,
 #header3-10 .mbr-section-subtitle {

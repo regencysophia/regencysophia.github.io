@@ -17,12 +17,13 @@
         "textFont": "Ubuntu",
         "isRoundedButtons": true,
         "isAnimatedOnScroll": false,
-        "isScrollToTopButton": true
+        "isScrollToTopButton": true,
+        "isRtl": false
       }
     },
     "versionFirst": "3.10.5",
     "uniqCompNum": 219,
-    "versionPublish": "3.11.1",
+    "versionPublish": "4.6.6",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32x32-128x128.png",
     "noImageResize": "",
     "cookiesAlert": "",
@@ -101,6 +102,12 @@
           "_name": "menu",
           "_anchor": "menu-t",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#669999",
             "fontSize": "0.85",
             "fontName": {
@@ -109,13 +116,7 @@
               "css": "'Ubuntu', sans-serif"
             },
             "fontColor": "#000000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": false,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -152,26 +153,26 @@
           },
           "_anchor": "features3-5k",
           "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#669999",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "3",
             "showImages": true,
             "showTitles": false,
             "showSubtitles": false,
             "ShowTexts": false,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#669999",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -284,26 +285,26 @@
           "_name": "features3",
           "_anchor": "features3-5r",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#669999",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "3",
             "showImages": true,
             "showTitles": false,
             "showSubtitles": false,
             "ShowTexts": false,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": "2",
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#669999",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -406,23 +407,23 @@
           "_name": "header5",
           "_anchor": "header5-5m",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
             "showArrow": true,
+            "contentAlign": "left",
+            "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#669999",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#669999",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "contentAlign": "left",
-            "showTitle": false,
-            "showText": false,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "title": "SOLID COLOR INTRO",
           "text": "Full screen intro with color background.<br>Buttons, text and title are aligned to the left.",
@@ -494,17 +495,17 @@
           "_name": "menu",
           "_anchor": "menu-t",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#669999",
             "fontSize": "0.85",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -541,10 +542,10 @@
           "_name": "header3",
           "_anchor": "header3-17",
           "_params": {
+            "showMeta": false,
             "paddingTop": "5",
             "paddingBottom": 1,
-            "bgColor": "#669999",
-            "showMeta": false
+            "bgColor": "#669999"
           },
           "title": "Background",
           "meta": "By John Smith posted July 20, 2016"
@@ -573,25 +574,25 @@
           },
           "_anchor": "msg-box5-u",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
             "imageSize": "33",
             "paddingTop": "1",
             "paddingBottom": "1",
-            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#669999",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#669999",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": false,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -641,25 +642,25 @@
           },
           "_anchor": "msg-box5-53",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
             "imageSize": "32",
             "paddingTop": "2",
             "paddingBottom": "2",
-            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#669999",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#669999",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": true,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -694,26 +695,26 @@
           "_name": "features3",
           "_anchor": "features3-5q",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#669999",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "3",
             "showImages": true,
             "showTitles": false,
             "showSubtitles": false,
             "ShowTexts": false,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": "2",
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#669999",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -816,23 +817,23 @@
           "_name": "header5",
           "_anchor": "header5-5n",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
             "showArrow": true,
+            "contentAlign": "left",
+            "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#669999",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#669999",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "contentAlign": "left",
-            "showTitle": false,
-            "showText": false,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "title": "SOLID COLOR INTRO",
           "text": "Full screen intro with color background.<br>Buttons, text and title are aligned to the left.",
@@ -904,17 +905,17 @@
           "_name": "menu",
           "_anchor": "menu-t",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#669999",
             "fontSize": "0.85",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -951,10 +952,10 @@
           "_name": "header3",
           "_anchor": "header3-14",
           "_params": {
+            "showMeta": false,
             "paddingTop": "5",
             "paddingBottom": 1,
-            "bgColor": "#669999",
-            "showMeta": false
+            "bgColor": "#669999"
           },
           "title": "Author",
           "meta": "By John Smith posted July 20, 2016"
@@ -975,25 +976,25 @@
           },
           "_anchor": "msg-box5-1v",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
             "imageSize": "34",
             "paddingTop": "2",
             "paddingBottom": 0,
-            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#669999",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#669999",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": true,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -1034,25 +1035,25 @@
           },
           "_anchor": "msg-box5-57",
           "_params": {
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
             "imageSize": "32",
             "paddingTop": 0,
             "paddingBottom": 0,
-            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#669999",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#669999",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": false,
-            "showTitle": false,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -1087,26 +1088,26 @@
           "_name": "features3",
           "_anchor": "features3-5s",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#669999",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "3",
             "showImages": true,
             "showTitles": false,
             "showSubtitles": false,
             "ShowTexts": false,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": "2",
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#669999",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -1209,23 +1210,23 @@
           "_name": "header5",
           "_anchor": "header5-3k",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
             "showArrow": false,
+            "contentAlign": "left",
+            "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#669999",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#669999",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "contentAlign": "left",
-            "showTitle": false,
-            "showText": false,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "title": "SOLID COLOR INTRO",
           "text": "Full screen intro with color background.<br>Buttons, text and title are aligned to the left.",
@@ -1299,6 +1300,12 @@
           "_name": "menu",
           "_anchor": "menu-s",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#669999",
             "fontSize": "0.85",
             "fontName": {
@@ -1307,13 +1314,7 @@
               "css": "'Ubuntu', sans-serif"
             },
             "fontColor": "#000000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": false,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1350,10 +1351,10 @@
           "_name": "header3",
           "_anchor": "header3-q",
           "_params": {
+            "showMeta": false,
             "paddingTop": "5",
             "paddingBottom": 1,
-            "bgColor": "#669999",
-            "showMeta": false
+            "bgColor": "#669999"
           },
           "title": "The Novels",
           "meta": "By John Smith posted July 20, 2016"
@@ -1380,25 +1381,25 @@
           },
           "_anchor": "msg-box5-o",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
             "imageSize": "32",
             "paddingTop": "2",
             "paddingBottom": "2",
-            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#669999",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#669999",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": true,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -1449,25 +1450,25 @@
           },
           "_anchor": "msg-box5-62",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
             "imageSize": "30",
             "paddingTop": "2",
             "paddingBottom": "2",
-            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#669999",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#669999",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": false,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -1492,7 +1493,7 @@
             }
           },
           "title": "Bless Thine Inheritance",
-          "text": "Celia Mardham should have been a success in her London Season, but a riding accident &nbsp;left her with a pronounced limp and no expectation of marriage. However, her Mama feels one last push ought to be made, not least to avoid her cousin inheriting a &nbsp;considerable sum from their grandfather's will. She therefore draws up a list of people for a couple of weeks country house sojourn, picking young ladies she feels will not be rivals, and some possible suitors.<br><br>Lord Levedale has been commanded by his reprobate sire to present himself at the house party and woo a known heiress, a beauty only let down by her lineage. He soon finds himself torn between what he owes to his name and the honest leanings of his own heart.&nbsp;<br><span style=\"font-size: 1.07rem; line-height: 1.5;\">Bless Thine Inheritance has &nbsp;two love stories, a guest from Hell, and a grandmama who would give the Dowager Lady Grantham a run for her money.&nbsp;</span><br><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span>Out soon as an ebook from Endeavour Press.",
+          "text": "Celia Mardham should have been a success in her London Season, but a riding accident &nbsp;left her with a pronounced limp and no expectation of marriage. However, her Mama feels one last push ought to be made, not least to avoid her cousin inheriting a &nbsp;considerable sum from their grandfather's will. She therefore draws up a list of people for a couple of weeks country house sojourn, picking young ladies she feels will not be rivals, and some possible suitors.<br><br>Lord Levedale has been commanded by his reprobate sire to present himself at the house party and woo a known heiress, a beauty only let down by her lineage. He soon finds himself torn between what he owes to his name and the honest leanings of his own heart.&nbsp;<br><span style=\"font-size: 1.07rem; line-height: 1.5;\">Bless Thine Inheritance has &nbsp;two love stories, a guest from Hell, and a grandmama who would give the Dowager Lady Grantham a run for her money.&nbsp;</span><br><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span>Available on Kindle from Endeavour Media on the 20 July 2018, pre-order from 22 June 2018.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"extract-dyk.html\" data-toolbar=\"-mbrBtnMove\">EXTRACT</a>"
         },
         {
@@ -1511,10 +1512,10 @@
           "_name": "header3",
           "_anchor": "header3-10",
           "_params": {
+            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#669999",
-            "showMeta": false
+            "bgColor": "#669999"
           },
           "title": "Future Titles",
           "meta": "By John Smith posted July 20, 2016"
@@ -1550,26 +1551,26 @@
           "_name": "features3",
           "_anchor": "features3-5t",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#669999",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "3",
             "showImages": true,
             "showTitles": false,
             "showSubtitles": false,
             "ShowTexts": false,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": "2",
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#669999",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -1672,23 +1673,23 @@
           "_name": "header5",
           "_anchor": "header5-3l",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
             "showArrow": false,
+            "contentAlign": "left",
+            "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#669999",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#669999",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "contentAlign": "left",
-            "showTitle": false,
-            "showText": false,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "title": "SOLID COLOR INTRO",
           "text": "Full screen intro with color background.<br>Buttons, text and title are aligned to the left.",
@@ -1760,17 +1761,17 @@
           "_name": "menu",
           "_anchor": "menu-4k",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#669999",
             "fontSize": "0.85",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1807,10 +1808,10 @@
           "_name": "header3",
           "_anchor": "header3-4l",
           "_params": {
+            "showMeta": false,
             "paddingTop": "5",
             "paddingBottom": 1,
-            "bgColor": "#669999",
-            "showMeta": false
+            "bgColor": "#669999"
           },
           "title": "Reviews<br><br>",
           "meta": "By John Smith posted July 20, 2016"
@@ -1837,25 +1838,25 @@
           },
           "_anchor": "msg-box5-4m",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
             "imageSize": "32",
             "paddingTop": "2",
             "paddingBottom": "2",
-            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#669999",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#669999",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": true,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -1890,26 +1891,26 @@
           "_name": "features3",
           "_anchor": "features3-5u",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#669999",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "3",
             "showImages": true,
             "showTitles": false,
             "showSubtitles": false,
             "ShowTexts": false,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": "2",
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#669999",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -2012,23 +2013,23 @@
           "_name": "header5",
           "_anchor": "header5-4r",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
             "showArrow": false,
+            "contentAlign": "left",
+            "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#669999",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#669999",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "contentAlign": "left",
-            "showTitle": false,
-            "showText": false,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "title": "SOLID COLOR INTRO",
           "text": "Full screen intro with color background.<br>Buttons, text and title are aligned to the left.",
@@ -2100,17 +2101,17 @@
           "_name": "menu",
           "_anchor": "menu-5y",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#669999",
             "fontSize": "0.85",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -2143,10 +2144,10 @@
           "_name": "header3",
           "_anchor": "header3-5z",
           "_params": {
+            "showMeta": true,
             "paddingTop": "5",
             "paddingBottom": 1,
-            "bgColor": "#669999",
-            "showMeta": true
+            "bgColor": "#669999"
           },
           "title": "Extract from The Devil You Know",
           "meta": ""
@@ -2171,26 +2172,26 @@
           "_name": "features3",
           "_anchor": "features3-61",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#669999",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "3",
             "showImages": true,
             "showTitles": false,
             "showSubtitles": false,
             "ShowTexts": false,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": "2",
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#669999",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {

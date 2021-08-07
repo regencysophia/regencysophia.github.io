@@ -2,9 +2,6 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,700);
 
 
-
-
-
 body,
 input,
 textarea,
@@ -486,7 +483,7 @@ h6,
   color: #ffffff;
 }
 #content1-5l P {
-  text-align: center;
+  text-align: left;
   color: #ffffff;
 }
 #header5-5m .mbr-section-title {
@@ -701,6 +698,9 @@ h6,
 
 
 
+
+
+
 #menu-s .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -792,6 +792,16 @@ h6,
 #msg-box5-62 P {
   font-family: 'Ubuntu', sans-serif;
   text-align: left;
+}
+#msg-box5-63 H3 {
+  font-size: 36px;
+  font-family: 'Droid Sans', sans-serif;
+}
+#msg-box5-63 SPAN {
+  font-family: 'Droid Sans', sans-serif;
+}
+#msg-box5-63 P {
+  font-family: 'Droid Sans', sans-serif;
 }
 #header3-10 .mbr-section-title,
 #header3-10 .mbr-section-subtitle {

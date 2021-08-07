@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "regency-novels",
-    "currentPage": "Books.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -19,18 +19,29 @@
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": true,
         "isRtl": false
-      }
+      },
+      "additionalSetColors": [
+        "#669999"
+      ]
     },
     "versionFirst": "3.10.5",
-    "uniqCompNum": 219,
-    "versionPublish": "4.8.1",
+    "uniqCompNum": 220,
+    "versionPublish": "5.3.10",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32x32-128x128.png",
     "noImageResize": "",
-    "cookiesAlert": "",
+    "cookiesAlert": false,
     "google-analytics": "",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
-    "siteFonts": []
+    "siteFonts": [],
+    "publishChangesOnly": false,
+    "imageResize": true,
+    "mbrsiteDomain": "js9zirsydd",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "gdpr": false
   },
   "pages": {
     "index.html": {
@@ -106,17 +117,13 @@
             "logo": false,
             "showBrand": false,
             "hideButtons": true,
-            "sticky": false,
+            "sticky": true,
             "collapsed": true,
             "transparent": true,
             "bgColor": "#669999",
             "fontSize": "0.85",
-            "fontName": {
-              "name": "Ubuntu",
-              "url": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
-              "css": "'Ubuntu', sans-serif"
-            },
-            "fontColor": "#000000",
+            "fontName": {},
+            "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
           "logo": {
@@ -140,7 +147,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sarah Hawkswood</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Reviews</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_tags": [
@@ -267,7 +274,7 @@
           "_name": "content1",
           "_styles": {
             "P": {
-              "text-align": "center",
+              "text-align": "left",
               "color": "#ffffff"
             }
           },
@@ -277,7 +284,7 @@
             "paddingBottom": 1,
             "bgColor": "#669999"
           },
-          "text": "<p>Sophia Holloway writes Regency romances in the classic tradition, as exemplified by Georgette Heyer. She creates a  world of eligible, and sometimes very ineligible, gentlemen, and ladies who vary from those anticipating marriage, those who think the chance has passed them by, and even those who have experienced it once and are resolved to never marry again.&nbsp;</p><p><br></p><p>Her stories are played out against a backdrop that varies from Almack's and Bond Street to affluent country houses, and with casts of characters from the sagacious to the silly. They prove that although the path of true love may not run smooth, the destination is worth the journey.&nbsp;</p>"
+          "text": "<p>Sophia Holloway writes Regency romances in the classic tradition, as exemplified by Georgette Heyer. She creates a  world of eligible, and sometimes very ineligible, gentlemen, and ladies who vary from those anticipating marriage, those who think the chance has passed them by, and even those who have experienced it once and are resolved to never marry again.&nbsp;</p><p><br></p><p>Her stories are played out against a backdrop that varies from Almack's and Bond Street to affluent country houses, and with casts of characters from the sagacious to the silly. They prove that although the path of true love may not run smooth, the destination is worth the journey.&nbsp;</p><p><span style=\"font-size: 1.07rem;\"><br></span></p><p><span style=\"font-size: 1.07rem;\">Sophia is delighted to announce that Allison &amp; Busby are publishing Kingscsastle, a Regency romance set in Somerset and with a naval twist, in paperback and ebook on 18th November 2021, with The Season to follow in 2022.</span><br></p>"
         },
         {
           "_tags": [
@@ -525,7 +532,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sarah Hawkswood</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Reviews</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_styles": {
@@ -935,7 +942,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sarah Hawkswood</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Reviews</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_styles": {
@@ -1020,7 +1027,7 @@
             }
           },
           "title": "<br>Sophia Holloway",
-          "text": "Sophia Holloway describes herself as a ‘wordsmith’ who is only really happy when writing. She read Modern History at Oxford and her factual book on the Royal Marines in the First World War, <a href=\"https://www.amazon.co.uk/From-Trench-Turret-S-Holloway/dp/1845293215\" target=\"_blank\">From Trench and Turret</a>, was published in 2006. She also writes mediaeval murder mysteries under another pen name.<br>&nbsp;&nbsp;<br>She is a member of the Historical Writers’ Association, the Historical Novel Society, and the Crime Writers' Association.<br><br><br>You can contact Sophia via regencysophia@gmail.com<br><br><br>",
+          "text": "Sophia Holloway describes herself as a ‘wordsmith’ who is only really happy when writing. She read Modern History at Oxford and her factual book on the Royal Marines in the First World War, <a href=\"https://www.amazon.co.uk/From-Trench-Turret-S-Holloway/dp/1845293215\" target=\"_blank\">From Trench and Turret</a>, was published in 2006. She also writes mediaeval murder mysteries under the pen name Sarah Hawkswood.<br>&nbsp;&nbsp;<br>She is a member of the Historical Writers’ Association, the Historical Novel Society, and the Crime Writers' Association.<br><br><br>You can contact Sophia via regencysophia@gmail.com<br><br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
@@ -1041,8 +1048,8 @@
             "showButtons": false,
             "inverse": false,
             "imageSize": "32",
-            "paddingTop": 0,
-            "paddingBottom": 0,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -1079,7 +1086,7 @@
             }
           },
           "title": "SOLID COLOR INTRO WITH IMAGE",
-          "text": "Sophia takes her pen name from her paternal great-grandmother, who died in childbirthwith her fourth child in 1904.  She was only 34 years old. In a very small way this gives her a memorial.",
+          "text": "Sophia takes her pen name from her paternal great-grandmother, who died in childbirth with her fourth child in 1904.  She was only 34 years old. In a very small way this gives her a memorial.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
@@ -1304,17 +1311,13 @@
             "logo": false,
             "showBrand": false,
             "hideButtons": true,
-            "sticky": false,
+            "sticky": true,
             "collapsed": true,
             "transparent": true,
             "bgColor": "#669999",
             "fontSize": "0.85",
-            "fontName": {
-              "name": "Ubuntu",
-              "url": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
-              "css": "'Ubuntu', sans-serif"
-            },
-            "fontColor": "#000000",
+            "fontName": {},
+            "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
           "logo": {
@@ -1334,7 +1337,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sarah Hawkswood</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Reviews</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_styles": {
@@ -1493,8 +1496,76 @@
             }
           },
           "title": "Bless Thine Inheritance",
-          "text": "Celia Mardham should have been a success in her London Season, but a riding accident &nbsp;left her with a pronounced limp and no expectation of marriage. However, her Mama feels one last push ought to be made, not least to avoid her cousin inheriting a &nbsp;considerable sum from their grandfather's will. She therefore draws up a list of people for a couple of weeks country house sojourn, picking young ladies she feels will not be rivals, and some possible suitors.<br><br>Lord Levedale has been commanded by his reprobate sire to present himself at the house party and woo a known heiress, a beauty only let down by her lineage. He soon finds himself torn between what he owes to his name and the honest leanings of his own heart.&nbsp;<br><span style=\"font-size: 1.07rem; line-height: 1.5;\">Bless Thine Inheritance has &nbsp;two love stories, a guest from Hell, and a grandmama who would give the Dowager Lady Grantham a run for her money.&nbsp;</span><br><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span>Available on &nbsp;<a href=\"https://www.amazon.co.uk/Bless-Thine-Inheritance-Sophia-Holloway-ebook/dp/B07F1LW61W\" target=\"_blank\">Kindle</a> from Endeavour Media and as an unabridged audiobook from Isis Audio (cd/mp3) and &nbsp;Audible (download) from 1 Sept 20. Read by <a href=\"http://www.mattaddis.com\" target=\"_blank\">Matt Addis</a>.",
+          "text": "Celia Mardham should have been a success in her London Season, but a riding accident &nbsp;left her with a pronounced limp and no expectation of marriage. However, her Mama feels one last push ought to be made, not least to avoid her cousin inheriting a &nbsp;considerable sum from their grandfather's will. She therefore draws up a list of people for a couple of weeks country house sojourn, picking young ladies she feels will not be rivals, and some possible suitors.<br><br>Lord Levedale has been commanded by his reprobate sire to present himself at the house party and woo a known heiress, a beauty only let down by her lineage. He soon finds himself torn between what he owes to his name and the honest leanings of his own heart.&nbsp;<br><span style=\"font-size: 1.07rem; line-height: 1.5;\">Bless Thine Inheritance has &nbsp;two love stories, a guest from Hell, and a grandmama who would give the Dowager Lady Grantham a run for her money.&nbsp;</span><br><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span>Available on Audible and from The Reading House as an audiobook performed by award nominated Matt Addis.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"extract-dyk.html\" data-toolbar=\"-mbrBtnMove\">EXTRACT</a>"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "32",
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#669999",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/kingscastle-mock.jpeg",
+              "link": "",
+              "alt": "Book cover of Kingscastle by Sophia Holloway",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Kingscastle",
+          "text": "As the younger son of a younger son, Captain William Hawksmoor of His Majesty's Royal Navy never expected to inherit a marquessate, and is none too pleased when he does so, especially when he learns that he is required to marry within a year or be forever dealing with Trustees. As the new Marquess of Athelney, he takes command of Kingscastle, the family seat, and discovers much needs to be done to set it in order. There is also his aunt, Lady Willoughby Hawksmoor, sat in the Dower House and determined that her timid daughter should be the next marchioness. When she discovers he is far more interested in Eleanor Burgess, her under-paid and much put-upon companion, Lady Willoughby will stop at nothing to keep them apart. <br><br>Kingscastle takes a man into uncharted waters and needs a young woman to realise she is valued.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"Extract-servant.html\" data-toolbar=\"-mbrBtnMove\">EXTRACT</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-size": "36px",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            },
+            "SPAN": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            },
+            "P": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          },
+          "_anchor": "msg-box5-63"
         },
         {
           "_styles": {
@@ -1542,7 +1613,7 @@
             "paddingBottom": 1,
             "bgColor": "#669999"
           },
-          "text": "<ul><li><span style=\"line-height: 1.5;\">Kingscastle</span></li><li>Isabelle</li><li>Lady of the Lake</li><li>An Independent Woman</li><li>All in a Name</li><li>Embarrassment of Riches</li><li>Twice Shy</li></ul>"
+          "text": "<ul><li>Isabelle</li><li>Lady of the Lake</li><li>An Independent Woman</li><li>All in a Name</li><li>The Season</li><li>Twice Shy</li></ul>"
         },
         {
           "_tags": [
@@ -1790,7 +1861,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sarah Hawkswood</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Reviews</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_styles": {
@@ -1813,7 +1884,7 @@
             "paddingBottom": 1,
             "bgColor": "#669999"
           },
-          "title": "Reviews<br><br>",
+          "title": "Reviews<br>",
           "meta": "By John Smith posted July 20, 2016"
         },
         {
@@ -1881,7 +1952,7 @@
             }
           },
           "title": "Devil You Know",
-          "text": "Some nice words<b></b>",
+          "text": "'Anyone who likes Georgette Heyer and is content to a listen to a romance which leaves the most sensual scenes in the reader's imagination is likely to deal very well with the Ledburys. The Devil You Know was a thoroughly gratifying tale of love, friendship, and redemption, with which I was sorry to part at he end and I know I will return to again.'&nbsp; &nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>Miss Lawrence is Hearing Things</b> (audiobook review)&nbsp;<br><b></b>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"Extract-servant.html\" data-toolbar=\"-mbrBtnMove\">EXTRACT</a>"
         },
         {
@@ -2130,7 +2201,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sarah Hawkswood</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"author.html\">Author</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Books.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Novels&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Books.html\">Books</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Reviews</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"background.html\">Background</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_styles": {
@@ -2160,10 +2231,10 @@
           "_anchor": "content1-60",
           "_params": {
             "paddingTop": "2",
-            "paddingBottom": 1,
+            "paddingBottom": "4",
             "bgColor": "#669999"
           },
-          "text": "<p>'I rather think virtue is overrated.'&nbsp;</p><p>'Only, my lord, because you have rarely walked beside it.' Her words were sharp but her look was soft, and she smiled, quite tenderly.</p><p>'You confuse me.' He frowned.</p><p>'I do?'</p><p>'Yes. You know so little and yet you know so much.'</p><p>'I think that, sir, is a description of a woman.'</p><p>'Is it? Most of the women I have known have known so little and simply said so much.' He was patently sincere, and Kitty laughed so much she nearly choked on a piece of chicken. 'What shall we do this evening, madam wife?'</p><p>'This evening, my lord? I had assumed you would be going out.'</p><p>'I need not. It would be rather nice to have an evening at home, don’t you think?'</p><p>'We could make a list of those people to invite to our party,' she offered, her cheeks a little pink.</p><p>'We could.' He did not sound as if the idea inspired him.</p><p>'And I must tell you that I have discovered a friend of my own to invite, sir. Having said that none were likely to be in Town, Lady Rowington is here to bring out her sister. I had not thought she would be in London this Season, having had a baby shortly after Christmas, but there is nobody else to chaperone her poor sister.'</p><p>'Poor sister?'</p><p>'Lady Rowington was previously Miss Sudbury.'</p><p>'Ah. I see. Unfortunate for the sister.'</p><p>'Yes. Charlotte says her sister is still very low. Fortunately she herself has Rowington, and three small children.'</p><p>'So the Rowingtons and her ladyship’s depressed sister head your list of guests.'</p><p>'I would not phrase it that way, but yes.' She paused. 'I do not think making our list will take all evening, my lord. You could go out afterwards.'</p><p>'Are you trying to get rid of me, my dear?' He smiled, wryly. 'What a bad husband I must be, to be sure.'</p><p>'No, no, it is just . . .I do not want you to be bored, my lord.'</p><p>'Oh, I am sure we could think of something that would not be at all boring.' His eyes twinkled wickedly.</p><p>'My lord, we were talking of patience.'</p><p>'You were. I said it was overrated.'</p><p>'That was virtue in general.'</p><p>'And you are being pedantic, but I shall let that pass. What if we went out to the opera, and consigned lists to tomorrow morning, after our ride.'</p><p>'Our ride? You intend to ride with me again tomorrow?'</p><p>'Of course. You ride very well, and I enjoy the exercise. In a subtle way, since it is not riding to be fashionable, it will be remarked upon that I am a good and attentive husband. I assure you in some quarters that will be a revelation.'</p><p>'So you do it so that I will not be pitied?'</p><p>&nbsp;'Perspicacious of you, but incorrect. It is but a bonus. I will ride with you, my Kitty, because it gives me pleasure.'</p><p>'As it also gives me, my lord.'</p><p>'Then there is no need to question the arrangement. Every morning, at half past nine of the clock, we shall ride together. And tomorrow morning, after our ride, we will make that list.'</p><p>'I am sorry to dash your hopes, sir, but I feel that the opera will have commenced before we finish dinner, and I am not dressed for it.'</p><p>He glanced at the ormolu clock upon the mantelpiece and stared as if doing so would make it change the hour.</p><p>'Hmm.'</p><p>'You could send round to Lord Inglesham, if he is not engaged elsewhere, and we could . . . play spillikins.'</p><p>He regarded her in fascinated horror.</p><p>'Spillikins? My dear girl, what have you been doing with your life?'</p><p>'Nothing, my lord.'</p><p>'Patently. I dare not imagine Inglesham’s face if I invited him here to play parlour games.'</p><p>'Well, I think he would smile, and then come.'</p><p>'Glutton for punishment he must be, then.' His lordship dismissed the servants with a nod, and thanks. 'You need not withdraw, my dear, not tonight.'</p><p>'I . . '</p><p>'You are afraid I want to play other “games”. I do, but that is beside the point. You have your time to steel your nerves, but it does not mean we might not spend a pleasant evening in dalliance.'</p><p>'I never learned to dally, sir.'</p><p>'I would teach you. It would be interesting, dallying with someone as sharp-witted, sharp-tongued, and . . .'</p><p>'Awful?' She looked taken aback at his description of her.</p><p>'I was going to say “interesting”. You would throw inappropriate flattery back in my face. If I said you were like a flower unfurling, you would demand to know which species of flower. If I said your eyes sparkled like stars you would enquire from which constellation.' He grinned, suddenly. 'The more I contemplate it, the more appealing it becomes. I would certainly have to keep my wits about me, and if you wish to treat it as merely a game, as a sop to your nerves, do so.'</p><p>'So you wish for entertainment, my lord.'</p><p>'Yes, I do. I keep telling you I am selfish. The “entertainment” with members of the opposite sex has never been so cerebral, but I am willing to experiment. Besides, even married ladies are expected to flirt, decorously. It is a social skill. Think of it as educational.'</p><p>She eyed him speculatively.</p><p>'You, my lord, are a dangerous man.'</p><p>'So I have been led to believe, ma’am. Are you a coward?'</p><p>He was jousting with her already. She felt a heady thrill. If this was wooing, she rather liked it after all. She looked him straight in the eye.</p><p>'I think perhaps I am not.'&nbsp;</p><p>He downed the last of the port in his glass, and rose from the table, coming to take her hand.</p><p>'Then come and dally with me, my lady, and we shall be vastly entertaining, one to the other.'</p><p>'Ah yes, but only after that list, sir.'&nbsp;</p><p>He groaned.</p>"
+          "text": "<p>'I rather think virtue is overrated.'&nbsp;</p><p>'Only, my lord, because you have rarely walked beside it.' Her words were sharp but her look was soft, and she smiled, quite tenderly.</p><p>'You confuse me.' He frowned.</p><p>'I do?'</p><p>'Yes. You know so little and yet you know so much.'</p><p>'I think that, sir, is a description of a woman.'</p><p>'Is it? Most of the women I have known have known so little and simply said so much.' He was patently sincere, and Kitty laughed so much she nearly choked on a piece of chicken. 'What shall we do this evening, madam wife?'</p><p>'This evening, my lord? I had assumed you would be going out.'</p><p>'I need not. It would be rather nice to have an evening at home, don’t you think?'</p><p>'We could make a list of those people to invite to our party,' she offered, her cheeks a little pink.</p><p>'We could.' He did not sound as if the idea inspired him.</p><p>'And I must tell you that I have discovered a friend of my own to invite, sir. Having said that none were likely to be in Town, Lady Rowington is here to bring out her sister. I had not thought she would be in London this Season, having had a baby shortly after Christmas, but there is nobody else to chaperone her poor sister.'</p><p>'Poor sister?'</p><p>'Lady Rowington was previously Miss Sudbury.'</p><p>'Ah. I see. Unfortunate for the sister.'</p><p>'Yes. Charlotte says her sister is still very low. Fortunately she herself has Rowington, and three small children.'</p><p>'So the Rowingtons and her ladyship’s depressed sister head your list of guests.'</p><p>'I would not phrase it that way, but yes.' She paused. 'I do not think making our list will take all evening, my lord. You could go out afterwards.'</p><p>'Are you trying to get rid of me, my dear?' He smiled, wryly. 'What a bad husband I must be, to be sure.'</p><p>'No, no, it is just . . .I do not want you to be bored, my lord.'</p><p>'Oh, I am sure we could think of something that would not be at all boring.' His eyes twinkled wickedly.</p><p>'My lord, we were talking of patience.'</p><p>'You were. I said it was overrated.'</p><p>'That was virtue in general.'</p><p>'And you are being pedantic, but I shall let that pass. What if we went out to the opera, and consigned lists to tomorrow morning, after our ride.'</p><p>'Our ride? You intend to ride with me again tomorrow?'</p><p>'Of course. You ride very well, and I enjoy the exercise. In a subtle way, since it is not riding to be fashionable, it will be remarked upon that I am a good and attentive husband. I assure you in some quarters that will be a revelation.'</p><p>'So you do it so that I will not be pitied?'</p><p>&nbsp;'Perspicacious of you, but incorrect. It is but a bonus. I will ride with you, my Kitty, because it gives me pleasure.'</p><p>'As it also gives me, my lord.'</p><p>'Then there is no need to question the arrangement. Every morning, at half past nine of the clock, we shall ride together. And tomorrow morning, after our ride, we will make that list.'</p><p>'I am sorry to dash your hopes, sir, but I feel that the opera will have commenced before we finish dinner, and I am not dressed for it.'</p><p>He glanced at the ormolu clock upon the mantelpiece and stared as if doing so would make it change the hour.</p><p>'Hmm.'</p><p>'You could send round to Lord Inglesham, if he is not engaged elsewhere, and we could . . . play spillikins.'</p><p>He regarded her in fascinated horror.</p><p>'Spillikins? My dear girl, what have you been doing with your life?'</p><p>'Nothing, my lord.'</p><p>'Patently. I dare not imagine Inglesham’s face if I invited him here to play parlour games.'</p><p>'Well, I think he would smile, and then come.'</p><p>'Glutton for punishment he must be, then.' His lordship dismissed the servants with a nod, and thanks. 'You need not withdraw, my dear, not tonight.'</p><p>'I . . '</p><p>'You are afraid I want to play other “games”. I do, but that is beside the point. You have your time to steel your nerves, but it does not mean we might not spend a pleasant evening in dalliance.'</p><p>'I never learned to dally, sir.'</p><p>'I would teach you. It would be interesting, dallying with someone as sharp-witted, sharp-tongued, and . . .'</p><p>'Awful?' She looked taken aback at his description of her.</p><p>'I was going to say “interesting”. You would throw inappropriate flattery back in my face. If I said you were like a flower unfurling, you would demand to know which species of flower. If I said your eyes sparkled like stars you would enquire from which constellation.' He grinned, suddenly. 'The more I contemplate it, the more appealing it becomes. I would certainly have to keep my wits about me, and if you wish to treat it as merely a game, as a sop to your nerves, do so.'</p><p>'So you wish for entertainment, my lord.'</p><p>'Yes, I do. I keep telling you I am selfish. The “entertainment” with members of the opposite sex has never been so cerebral, but I am willing to experiment. Besides, even married ladies are expected to flirt, decorously. It is a social skill. Think of it as educational.'</p><p>She eyed him speculatively.</p><p>'You, my lord, are a dangerous man.'</p><p>'So I have been led to believe, ma’am. Are you a coward?'</p><p>He was jousting with her already. She felt a heady thrill. If this was wooing, she rather liked it after all. She looked him straight in the eye.</p><p>'I think perhaps I am not.'&nbsp;</p><p>He downed the last of the port in his glass, and rose from the table, coming to take her hand.</p><p>'Then come and dally with me, my lady, and we shall be vastly entertaining, one to the other.'</p><p>'Ah yes, but only after that list, sir.'&nbsp;</p><p>He groaned.&nbsp;</p>"
         },
         {
           "_tags": [
